@@ -5,49 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asesorías</title>
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<style>
-	a {
-		color: black;
-		text-align: left;
-		font-size:20px;
-	}
-	h2 {
-		color: red;
-		text-align: left;
-	}
-	a {
-		color: blue;
-		text-align: left;
-		font-size:20px;
-	}
-</style>
 <body>
     <header>
-        <h1 style="color:red; text-align:center;">
+    <h1 style="color:red; text-align:center;">
 		<img src="img/unam.jpg" height=60 width=40 align="left">
-
-        
-
-
 		Asesorías Facultad de Ingeniería
 		<img src="img/fi.jpg" height=60 width=40 align="right"> 
 	</h1>
 	<br>
-        <nav>
-            <a href="index.html">Inicio</a>
-        </nav>
+        <div>
+            <nav>
+                <a href="index.html" class="nav_principal">Inicio</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <h2>
+        <h2 class="TXT_instruc">
             Eligue tu carrera para poder consultar tus materias y así poder ver tus horarios: <br>
         </h2>
 	<hr>
         <a href="materias.html">Ingeniería en Computación</a>
         <br>
-        <img src="img/computacion.jpg" height=200 width=400 alt="compu"usemap="#Mimapa">
+        <img src="img/computacion.jpg" height=200 width=400 alt="compu" usemap="Mimapa">
         <map id="Mimapa">
-            <area shape="RECTANGLE" coords="0,0,800,400" href="materias.html">
+            <area shape="RECTANGLE" coords="0,0,800,400" href="materias.html" alt="Materias computación">
         </map>
         <br>
 	<HR>

@@ -5,75 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>horarios</title>
+	<link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <style>
-	h1 {
-		color: red;
-		text-align: center;
-	}
-	h2 {
-		color: red;
-		text-align: left;
-	}
-	a {
-		color: blue;
-		text-align: left;
-		font-size:20px;
-	}
-	a 1 {
-		color: blue;
-		font-size:15px;
-	}
 	table, th, td {
-		border: 1px solid;
-		padding: 10px 10px 10px 10px;
-	}
-	p {
-		color: blue;
-		font-size:20px;
-	}
-	p1 {
-		color: black;
-		font-size:20px;
+		
 	}
 </style>
 <body>
     <header>
-        <h1>
+        <h1 class="TituloPag">
 		<img src="img/unam.jpg" height=60 width=40 align="left">
 		Horarios de la asignatura de Fundamentos de programación
 		<img src="img/unam.jpg" height=60 width=40 align="right">
 	</h1>
 	<br>
-        <nav>
-            <p><a href="index.html">Inicio</a></p>
-        </nav>
-        
+		<div>
+			<nav>
+				<p class="Enlaces"><a href="index.html">Inicio</a></p>
+			</nav>
+		</div>
     </header>
     <main>
+	<h2 class="TXT_instruc">Estos son los profesores con sus respectivos horarios y salones:</h2>
 	<br>
 	<hr>
-	<table>
-  		<tr>
-		    <th>Profesor</th>
-		    <th>Salón</th>
-		    <th>Horario</th>
+	<table class="Tablas">
+  		<tr class="Tablas">
+		    <th class="Tablas">Profesor</th>
+		    <th class="Tablas">Salón</th>
+		    <th class="Tablas">Horario</th>
 		</tr>
-	 	<tr>
-		    <td>Juan Sanchez</td>
-		    <td>A201</td>
-		    <td>Lunes y miercoles 1:00pm a 3:00pm</td>
+	 	<tr class="Tablas">
+		    <td class="Tablas">Juan Sanchez</td>
+		    <td class="Tablas">A201</td>
+		    <td class="Tablas">Lunes y miercoles 1:00pm a 3:00pm</td>
   		</tr>
-  		<tr>
-		    <td>Pedro Alcantara</td>
-		    <td>B301</td>
-		    <td>Martes y jueves 2:00pm a 4:00pm</td>
+  		<tr class="Tablas">
+		    <td class="Tablas">Pedro Alcantara</td>
+		    <td class="Tablas">B301</td>
+		    <td class="Tablas">Martes y jueves 2:00pm a 4:00pm</td>
   		</tr>
 	</table>
 	<br>
 	<br>
 	<br>
-	<p1>Para leer referencias de los profesores de clic <a href="https://www.misprofesores.com/">aqui</a></p1>
+	<p class="Texto_norm">Para leer referencias de los profesores de clic <a href="https://www.misprofesores.com/" class="Enlaces">aqui</a>.</p>
 	
     </main>
 </body>
